@@ -1,0 +1,19 @@
+server:
+  port: 8761
+
+spring:
+  application:
+    name: eurka-server
+
+eureka:
+  instance:
+    hostname: localhost
+    ip-address: 172.16.11.150
+  client:
+    registerWithEureka: false
+    fetchRegistry: false # 通过eureka.client.registerWithEureka：false和fetchRegistry：false来表明自己是一个eureka server.
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+  server:
+    eviction-interval-timer-in-ms: 3000
+    remote-region-registry-fetch-interval: 3000
