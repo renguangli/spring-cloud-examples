@@ -32,7 +32,7 @@
     </dependencies>
 
     <build>
-        <finalName>consumer-feign</finalName>
+        <finalName>consumer-feign-hystrix</finalName>
     </build>
 
 </project>

@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      name: application
+      profile: dev
+      label: master
+      uri: http://172.16.11.150:8888

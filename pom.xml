@@ -24,6 +24,8 @@
         <module>spring-cloud-consumer-feign</module>
         <module>spring-cloud-consumer-rest-ribbon-hystrix</module>
         <module>spring-cloud-consumer-feign-hystrix</module>
+        <module>spring-cloud-config-server</module>
+        <module>spring-cloud-config-client</module>
     </modules>
 
     <properties>
