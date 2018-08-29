@@ -1,4 +1,4 @@
-package com.renguangli.eureka;
+package com.renguangli.config;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
