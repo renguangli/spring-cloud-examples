@@ -1,1 +1,1 @@
-# spring-cloud-examples
+# spring-cloud-samples
